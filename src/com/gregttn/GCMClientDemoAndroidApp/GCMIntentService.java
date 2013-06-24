@@ -15,7 +15,7 @@ import com.gregttn.GCMClientDemoAndroidApp.utils.ServerGateway;
 public class GCMIntentService extends GCMBaseIntentService {
     private static final String TAG = GCMIntentService.class.getName();
     private static final String MESSAGE_KEY = "message";
-    public static final String SERVER_REGISTER_ENDPOINT = "http://gcmserverdemo.herokuapp.com/register";
+    public static final String SERVER_REGISTER_ENDPOINT = "YOUR SERVER ENDPOINT";
 
     private ServerGateway serverGateway = new ServerGateway(SERVER_REGISTER_ENDPOINT);
     private NotificationDispatcher notificationDispatcher;
